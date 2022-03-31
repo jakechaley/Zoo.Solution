@@ -7,8 +7,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace CretaceousPark
+namespace Zoo
 {
+#pragma warning disable C51591
     public class Program
     {
         public static void Main(string[] args)
@@ -23,4 +24,5 @@ namespace CretaceousPark
                     webBuilder.UseStartup<Startup>();
                 });
     }
+#pragma warning disable C51591
 }

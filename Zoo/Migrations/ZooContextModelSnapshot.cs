@@ -37,6 +37,88 @@ namespace Zoo.Migrations
                     b.HasKey("AnimalId");
 
                     b.ToTable("Animals");
+
+                    b.HasData(
+                        new
+                        {
+                            AnimalId = 1,
+                            Age = 13,
+                            Gender = "Female",
+                            Name = "Gary",
+                            Species = "Goose"
+                        },
+                        new
+                        {
+                            AnimalId = 2,
+                            Age = 4,
+                            Gender = "Male",
+                            Name = "Terry",
+                            Species = "Tiger"
+                        },
+                        new
+                        {
+                            AnimalId = 3,
+                            Age = 5,
+                            Gender = "Male",
+                            Name = "Lawrence",
+                            Species = "Lion"
+                        },
+                        new
+                        {
+                            AnimalId = 4,
+                            Age = 6,
+                            Gender = "Male",
+                            Name = "Gary2",
+                            Species = "Goose"
+                        },
+                        new
+                        {
+                            AnimalId = 5,
+                            Age = 39,
+                            Gender = "Female",
+                            Name = "Penelope",
+                            Species = "Peacock"
+                        },
+                        new
+                        {
+                            AnimalId = 6,
+                            Age = 25,
+                            Gender = "Male",
+                            Name = "Zane",
+                            Species = "Zebra"
+                        },
+                        new
+                        {
+                            AnimalId = 7,
+                            Age = 4,
+                            Gender = "Male",
+                            Name = "Marcus",
+                            Species = "Meerkat"
+                        },
+                        new
+                        {
+                            AnimalId = 8,
+                            Age = 13,
+                            Gender = "Female",
+                            Name = "Zoie",
+                            Species = "Zebra"
+                        },
+                        new
+                        {
+                            AnimalId = 9,
+                            Age = 6,
+                            Gender = "Female",
+                            Name = "Sydney",
+                            Species = "Snake"
+                        },
+                        new
+                        {
+                            AnimalId = 10,
+                            Age = 19,
+                            Gender = "Female",
+                            Name = "Karen",
+                            Species = "Kimodo Dragon"
+                        });
                 });
 #pragma warning restore 612, 618
         }
